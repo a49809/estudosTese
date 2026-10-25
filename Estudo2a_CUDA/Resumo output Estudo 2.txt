@@ -1,0 +1,256 @@
+Hash objetivo 
+        => 0x8BBAAB6D, 0x05D5E192, 0xA5A45E61, 0x9938F159, 0xF2434C5B, 0x6D61294A, 0xA601E88D, 0x5DDB8BC9
+
+ 32 ciclos de 5 min (total maximo: 160 min)
+
+================ CICLO 1/32 (5 min) ================
+max sim => 182 (71.09%)  @: 58829 ms
+chave   => 0x9D158774, 0xA2565776, 0xD1C79305, 0x3AF73155, 0xCB7F4533, 0x9F7B163A, 0x646291C7, 0x9F454D0A
+dif bits => 74 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x98FAEB61, 0x1553AD93, 0xA5F4D634, 0xB1C4447F, 0xB64B44D9, 0xA9297E06, 0x2419AE15, 0x1DFB8AD3
+[chaves reportadas: 6]
+[ciclo 1/32 terminado: 2315 tentativas]
+
+================ CICLO 2/32 (5 min) ================
+max sim => 180 (70.31%)  @: 365921 ms
+chave   => 0xC2276F97, 0x49B0061C, 0xAE22C4B7, 0x0BFEEE99, 0x0B845AD9, 0xA96D68AF, 0x9E805B86, 0xD6EE2D1F
+dif bits => 76 / 256 (bits diferentes vs hash objetivo)
+hash    => 0xBAD2AB7D, 0x0440E782, 0xF5A70240, 0x56B1D069, 0xF3436001, 0x45229D83, 0x2E11CA8D, 0x3EC2C709
+[chaves reportadas: 11]
+[ciclo 2/32 terminado: 2314 tentativas]
+
+================ CICLO 3/32 (5 min) ================
+max sim => 184 (71.88%)  @: 810231 ms
+chave   => 0xC1893701, 0x7811CB0C, 0xEB529297, 0x1D67D0DD, 0xFBF99113, 0xC7C181F9, 0xD145CB09, 0xEBFA47FA
+dif bits => 72 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x8ADAA84F, 0xC85349D2, 0x27864E21, 0xBD80911F, 0x7A490C6A, 0xAD0FB3EA, 0xE6A1E1FC, 0x69DB13C9
+[chaves reportadas: 20]
+[ciclo 3/32 terminado: 2313 tentativas]
+
+================ CICLO 4/32 (5 min) ================
+max sim => 182 (71.09%)  @: 1148709 ms
+chave   => 0xC41546D8, 0x78FA4B5B, 0xEF76DC29, 0x5EA43876, 0x625E7CF6, 0xDE6B1965, 0xE7B0071D, 0x1D8347F6
+dif bits => 74 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x0F09B9C9, 0x8184E116, 0xAEB60A81, 0x98724A79, 0x72536D26, 0x6DA8A1F3, 0xA401EAA0, 0x59EFAB89
+[chaves reportadas: 26]
+[ciclo 4/32 terminado: 2314 tentativas]
+
+================ CICLO 5/32 (5 min) ================
+max sim => 181 (70.70%)  @: 1228731 ms
+chave   => 0x7641D964, 0x55992740, 0xA07FCF9C, 0xF357293D, 0xBAD28DDA, 0x44FDC542, 0x2DDFE8E5, 0x3F6A8AF2
+dif bits => 75 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x4A4A8DEA, 0x8DB0E0B3, 0x0CB65F28, 0x193CC14F, 0xE30B68FA, 0x6F4D944A, 0x4709C489, 0x58CB82CA
+[chaves reportadas: 32]
+[ciclo 5/32 terminado: 2314 tentativas]
+
+================ CICLO 6/32 (5 min) ================
+max sim => 181 (70.70%)  @: 1573605 ms
+chave   => 0x4F0792DD, 0xDBD80A61, 0xF9A8789D, 0x30EB110D, 0x755DFB10, 0x323BA59A, 0xB18E8E6C, 0x7B7BA688
+dif bits => 75 / 256 (bits diferentes vs hash objetivo)
+hash    => 0xECF6AFC9, 0x15DD73B0, 0x9DB45463, 0xB138B798, 0x7863EB43, 0x0B607328, 0xB671EEDD, 0x6DD99080
+[chaves reportadas: 38]
+[ciclo 6/32 terminado: 2313 tentativas]
+
+================ CICLO 7/32 (5 min) ================
+max sim => 183 (71.48%)  @: 2071635 ms
+chave   => 0x7F463F20, 0xB780CA44, 0x26E74870, 0x29BAB548, 0x864765F3, 0x6ADA17FA, 0xEBBE58DB, 0xB96E4B98
+dif bits => 73 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x73B9E34D, 0x2B55E4C3, 0xB3245261, 0xB1A19059, 0x77570653, 0xEF532FDE, 0x26FD6089, 0xF919894D
+[chaves reportadas: 46]
+[ciclo 7/32 terminado: 2316 tentativas]
+
+================ CICLO 8/32 (5 min) ================
+max sim => 181 (70.70%)  @: 2136759 ms
+chave   => 0x4C240792, 0x56141A86, 0x482A7832, 0x5D6AF9F9, 0xA1750DC5, 0x1619AD19, 0x218A08A7, 0xA8416319
+dif bits => 75 / 256 (bits diferentes vs hash objetivo)
+hash    => 0xAAF20F08, 0x85D5B0C0, 0xA0B5CBE1, 0xBF72D361, 0xDAD34479, 0x3C203BCD, 0x2A4B849F, 0x5FDFB38D
+[chaves reportadas: 51]
+[ciclo 8/32 terminado: 2313 tentativas]
+
+================ CICLO 9/32 (5 min) ================
+max sim => 180 (70.31%)  @: 2678841 ms
+chave   => 0x13BF123E, 0x0609261F, 0x2B9E3B61, 0xD0082404, 0xBB4C9E81, 0x565CBAFC, 0x866FA092, 0x4D58E143
+dif bits => 76 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x2C6A3BE5, 0x0D54E99A, 0xB1AA1B21, 0x8D1836CB, 0xB3DF4C5B, 0x695169AA, 0x82526C7D, 0xD68E0191
+[chaves reportadas: 60]
+[ciclo 9/32 terminado: 2313 tentativas]
+
+================ CICLO 10/32 (5 min) ================
+max sim => 180 (70.31%)  @: 2762135 ms
+chave   => 0x87DD4E99, 0x013C2C8F, 0x7CF2D40E, 0xD381872E, 0xD2207246, 0x555A5403, 0x6B3B2569, 0x5C14ACBE
+dif bits => 76 / 256 (bits diferentes vs hash objetivo)
+hash    => 0xCA3BA145, 0x4CD3E203, 0xA5261B25, 0x4FF8E189, 0xF3C32CD1, 0x7AB0336A, 0xBD09F406, 0x2D5B87C2
+[chaves reportadas: 67]
+[ciclo 10/32 terminado: 2314 tentativas]
+
+================ CICLO 11/32 (5 min) ================
+max sim => 184 (71.88%)  @: 3020866 ms
+chave   => 0x1E6FFA65, 0x0F0EF52A, 0x992E92C0, 0xD236527C, 0x6C8B14F1, 0xCC85C439, 0xBE8F09E2, 0xC36BB22F
+dif bits => 72 / 256 (bits diferentes vs hash objetivo)
+hash    => 0xD3E0BEBD, 0x0BFBC6F0, 0x232D5A41, 0x9029F958, 0xF8DF4C5B, 0x6505291A, 0x7E306A19, 0x0F938B8D
+[chaves reportadas: 72]
+[ciclo 11/32 terminado: 2316 tentativas]
+
+================ CICLO 12/32 (5 min) ================
+max sim => 180 (70.31%)  @: 3322312 ms
+chave   => 0x65369DF2, 0xCD3A221D, 0x9E9635E0, 0x83CCD384, 0xD0EC0C42, 0x0B13E528, 0x97E945B2, 0x177D62BE
+dif bits => 76 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x8A34CB27, 0x85852953, 0xADAC18F1, 0x9738E45D, 0xFEFAE459, 0x5DF12262, 0xF941F05D, 0x358FD9A9
+[chaves reportadas: 79]
+[ciclo 12/32 terminado: 2313 tentativas]
+
+================ CICLO 13/32 (5 min) ================
+max sim => 183 (71.48%)  @: 3669009 ms
+chave   => 0x7E8BEEC4, 0x416A1D0E, 0x57431AF1, 0x67D9379D, 0xB79CDF10, 0x40402AD3, 0xE02E523D, 0x4A6A7601
+dif bits => 73 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x4AA0BF3F, 0x81956520, 0xB5929AC7, 0x9A38A861, 0xF35ACC99, 0x6F212EDA, 0xE001E11B, 0xCB9F9BC8
+[chaves reportadas: 84]
+[ciclo 13/32 terminado: 2315 tentativas]
+
+================ CICLO 14/32 (5 min) ================
+max sim => 182 (71.09%)  @: 4132758 ms
+chave   => 0xB478DD69, 0xA6ACB815, 0x6C02D2E3, 0x382D5ADF, 0x079A9D05, 0x9A9ADFBC, 0xEAE68A5C, 0x0167FA6E
+dif bits => 74 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x8ABCABDD, 0x2CCDF591, 0xBC247E24, 0x3132FA58, 0xF2924C4A, 0x34770DC3, 0x8F2FFD59, 0xD5928FB1
+[chaves reportadas: 92]
+[ciclo 14/32 terminado: 2315 tentativas]
+
+================ CICLO 15/32 (5 min) ================
+max sim => 183 (71.48%)  @: 4352281 ms
+chave   => 0xCAC1EB03, 0x97C74015, 0xC157A84F, 0x2F0E2E73, 0x6249C4AB, 0x5CA7F785, 0xA0369C4D, 0x62AD4AB1
+dif bits => 73 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x12132B1C, 0x9D516836, 0xACA05F29, 0x8B2AF1DD, 0xBA408D19, 0xFE652CC2, 0x6C02FC00, 0x5DEB2FE8
+[chaves reportadas: 99]
+[ciclo 15/32 terminado: 2316 tentativas]
+
+================ CICLO 16/32 (5 min) ================
+max sim => 182 (71.09%)  @: 4680307 ms
+chave   => 0xB59826FB, 0x137459A2, 0x9BE92DF5, 0x00456A39, 0x420A4684, 0xFF5542E1, 0x637C4F34, 0x5698548F
+dif bits => 74 / 256 (bits diferentes vs hash objetivo)
+hash    => 0xDE39A76E, 0x8CFD6050, 0x22A2B66F, 0xBB38C859, 0xF3472495, 0x2967794A, 0xD71DA89F, 0xD4DB9DC0
+[chaves reportadas: 105]
+[ciclo 16/32 terminado: 2316 tentativas]
+
+================ CICLO 17/32 (5 min) ================
+max sim => 182 (71.09%)  @: 4988262 ms
+chave   => 0x9A0F0594, 0xE86FCEEC, 0x8C561F4C, 0x0F907AF0, 0x793916F8, 0x48C187F3, 0xDEC5909C, 0xE56226BA
+dif bits => 74 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x8B7C4B48, 0x07C75A92, 0x86665A69, 0x4939D883, 0xB0034C63, 0x0DF82706, 0x2E41AB94, 0x87DF89CD
+[chaves reportadas: 114]
+[ciclo 17/32 terminado: 2313 tentativas]
+
+================ CICLO 18/32 (5 min) ================
+max sim => 183 (71.48%)  @: 5307764 ms
+chave   => 0xFA46237A, 0x9549BCBF, 0x8AA4A600, 0x0928E91A, 0x0ABDFC2B, 0xC9583DDE, 0x3475054F, 0x81C4F897
+dif bits => 73 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x8298BB5C, 0x1547E79A, 0xE5277FA0, 0x1530F119, 0x7EC55CF3, 0x4D874C07, 0xB4E6A8BE, 0x7893ABCB
+[chaves reportadas: 121]
+[ciclo 18/32 terminado: 2313 tentativas]
+
+================ CICLO 19/32 (5 min) ================
+max sim => 180 (70.31%)  @: 5527629 ms
+chave   => 0xDD4E8940, 0x921422F9, 0x050F2771, 0x96BA5A0B, 0x4B16BA9E, 0x18651609, 0x02EB1EDA, 0x08A6BF61
+dif bits => 76 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x8A9E8F0B, 0x8D1DECB2, 0xA76A18E1, 0xD5FDE844, 0x304D6E53, 0x4D4BE06B, 0xAB49A8DD, 0x4DEA0BA9
+[chaves reportadas: 126]
+[ciclo 19/32 terminado: 2312 tentativas]
+
+================ CICLO 20/32 (5 min) ================
+max sim => 182 (71.09%)  @: 5900719 ms
+chave   => 0x29A00EE1, 0x5ECC874F, 0x491A3937, 0x78FDB866, 0x3A7726B7, 0x323FF2C5, 0x0D10B315, 0x8F211584
+dif bits => 74 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x0BB8A269, 0x4BD6E442, 0xA7F47C40, 0xD9381A58, 0xB3530C67, 0x08428CC3, 0x160A9E89, 0x14DA6B48
+[chaves reportadas: 134]
+[ciclo 20/32 terminado: 2313 tentativas]
+
+================ CICLO 21/32 (5 min) ================
+max sim => 184 (71.88%)  @: 6267755 ms
+chave   => 0xD8005A0D, 0xD9EA0916, 0x309FBDEF, 0x1D17E9F2, 0xBE7153A6, 0x9CCE5453, 0xD9C943AC, 0x25C9784B
+dif bits => 72 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x893BA1E6, 0xD1C5E597, 0x750C7FE9, 0x99A8B01D, 0x5658DE5A, 0x2E61AB7F, 0x2A95ED5C, 0xDD9282CB
+[chaves reportadas: 139]
+[ciclo 21/32 terminado: 2309 tentativas]
+
+================ CICLO 22/32 (5 min) ================
+max sim => 183 (71.48%)  @: 6548061 ms
+chave   => 0x704C7D61, 0x34302AB2, 0x481F50A8, 0x93CDA8C1, 0xA39264E7, 0x4DF6DD8E, 0xAE7D1464, 0xB6B64117
+dif bits => 73 / 256 (bits diferentes vs hash objetivo)
+hash    => 0xABDF2FED, 0x2450CB10, 0x75B6B661, 0xD00EF15B, 0x86674E5F, 0x392B85C0, 0xA440E02E, 0x71FB02CA
+[chaves reportadas: 146]
+[ciclo 22/32 terminado: 2312 tentativas]
+
+================ CICLO 23/32 (5 min) ================
+max sim => 181 (70.70%)  @: 6744109 ms
+chave   => 0x5170DBBA, 0x4E1D518D, 0xB855748C, 0xBFAF95B7, 0xD5EDCFCF, 0x11298140, 0x6F73FD3D, 0xC0EA23DB
+dif bits => 75 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x861A93E6, 0x63D46992, 0xD4650E41, 0xFE58005B, 0xB6625E5B, 0x68C4296A, 0x2E276B75, 0x3D43A9C9
+[chaves reportadas: 151]
+[ciclo 23/32 terminado: 2311 tentativas]
+
+================ CICLO 24/32 (5 min) ================
+max sim => 182 (71.09%)  @: 7116434 ms
+chave   => 0x1C229B2E, 0x469C597D, 0x10E82319, 0xD85F8059, 0x1117598B, 0x6C632A68, 0x2BB97828, 0x0E547ABD
+dif bits => 74 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x4DFABE2C, 0xCDF4C1C3, 0x968812E1, 0x9828F84F, 0xB367077B, 0x79E9B10F, 0xA202F091, 0xDC7E9B8A
+[chaves reportadas: 158]
+[ciclo 24/32 terminado: 2316 tentativas]
+
+================ CICLO 25/32 (5 min) ================
+max sim => 183 (71.48%)  @: 7354580 ms
+chave   => 0x8C78E271, 0xAD350861, 0xF4408B3A, 0x88FC6121, 0x9F221B72, 0x95DCD9A7, 0xB6B70789, 0xBA08DCE6
+dif bits => 73 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x8AFBAB2D, 0x00D1E204, 0xBDEC7AC1, 0x34A8D969, 0x5AE7507A, 0x3D672B08, 0x616AEB0F, 0x199782E1
+[chaves reportadas: 166]
+[ciclo 25/32 terminado: 2310 tentativas]
+
+================ CICLO 26/32 (5 min) ================
+max sim => 181 (70.70%)  @: 7682322 ms
+chave   => 0xC0849432, 0x9C9C9DE6, 0xE006CD6E, 0x98D58254, 0x6A06629C, 0x51E9DD7C, 0x3D9AC7DB, 0x33513B0E
+dif bits => 75 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x8BC6AB6E, 0x5C44C3D3, 0xA5B76EA9, 0x4B8E997D, 0x62F26D5A, 0xECFD2943, 0xA2D1FAAC, 0x7DEF5AC0
+[chaves reportadas: 173]
+[ciclo 26/32 terminado: 2313 tentativas]
+
+================ CICLO 27/32 (5 min) ================
+max sim => 182 (71.09%)  @: 7815620 ms
+chave   => 0x8AFDB4FD, 0xC53089C7, 0xC0942049, 0x9B2C5C1F, 0x22339F28, 0xEC388B8E, 0x39FA81B2, 0x1DBE6E70
+dif bits => 74 / 256 (bits diferentes vs hash objetivo)
+hash    => 0xBBBBAB5E, 0x0548F116, 0xB3A0DE61, 0xB3F8E078, 0x30509E33, 0x5D7D2BAA, 0x8828ACE7, 0x196B89EE
+[chaves reportadas: 179]
+
+================ CICLO 28/32 (5 min) ================
+max sim => 183 (71.48%)  @: 8328197 ms
+chave   => 0x2460A3F9, 0x6A0AC7BC, 0xB0B59613, 0xCF9BA878, 0xEB52CC8D, 0x0842EE79, 0x6809B693, 0x4748AA64
+dif bits => 73 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x9BBACF69, 0x04F0A193, 0xECA44661, 0x8D53F181, 0xC1D1D1D9, 0x6537B369, 0xA4094E2A, 0x6D574AD9
+[chaves reportadas: 184]
+
+================ CICLO 29/32 (5 min) ================
+max sim => 182 (71.09%)  @: 8458421 ms
+chave   => 0xF4B51D40, 0x9F58279D, 0x3C9BBBC3, 0xDFFE3083, 0x34557378, 0xDB00BCED, 0x0C91ECAF, 0x892BE2CC
+dif bits => 74 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x8FDB7BC9, 0x87D7C5B2, 0x290B50C1, 0x193CA51D, 0xBAC8645B, 0x69492FC9, 0xB653879D, 0xCD5B25CA
+[chaves reportadas: 190]
+
+================ CICLO 30/32 (5 min) ================
+max sim => 181 (70.70%)  @: 8859747 ms
+chave   => 0x22242180, 0x1C9B7B2F, 0x5F3A6D37, 0xE6E06DB4, 0x5CE3C23B, 0x12BBC8E8, 0x66B0F38F, 0x862726CF
+dif bits => 75 / 256 (bits diferentes vs hash objetivo)
+hash    => 0xCABA8A0F, 0x03E7C7C4, 0xE7E45BE1, 0xC97C6359, 0x53034C5A, 0x6FDA1800, 0x1538AC86, 0x199E0A05
+[chaves reportadas: 195]
+
+================ CICLO 31/32 (5 min) ================
+max sim => 181 (70.70%)  @: 9169575 ms
+chave   => 0x45B5F302, 0x65830227, 0x4273EC9D, 0xD37745F9, 0x9F924064, 0xBF8948F7, 0x64D9108A, 0x06911D13
+dif bits => 75 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x8898AB87, 0x0F87A5B4, 0xA3E71661, 0x963CB14F, 0x4A4B6EDF, 0x4D7185CA, 0x0756CB81, 0xB76B8FA9
+[chaves reportadas: 201]
+[ciclo 31/32 terminado: 2310 tentativas]
+
+================ CICLO 32/32 (5 min) ================
+max sim => 180 (70.31%)  @: 9488447 ms
+chave   => 0xCC662DF0, 0xF24D1A51, 0xEA5B0DFC, 0x0C1A3E00, 0x7D4485C1, 0x6AA2F0F7, 0x951A5064, 0xAE2FAD5F
+dif bits => 76 / 256 (bits diferentes vs hash objetivo)
+hash    => 0x93FAB77B, 0xC78545F3, 0x0580CE20, 0xB1307559, 0xF17DCD50, 0xCF053C9E, 0x8509CC6F, 0x09D082C9
+[chaves reportadas: 205]
+[ciclo 32/32 terminado: 2306 tentativas]
