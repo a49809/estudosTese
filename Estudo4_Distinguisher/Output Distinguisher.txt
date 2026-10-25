@@ -1,0 +1,228 @@
+Output Distinguisher
+
+C:\Users\Research\Desktop\TT4_Rui>run_distinguisher.bat
+
+C:\Users\Research\Desktop\TT4_Rui>python estudo_distinguisher_cuda.py --rounds 2 3 4 5 6 7 8 9 10 16 32 48 64  --delta-bit 0
+================================================================
+Estudo 4 - Distinguisher neuronal SHA-256 (Modo: CUDA)
+================================================================
+Treino = 20000 amostras | Teste = 4000 amostras (SEPARADAS)
+DELTA = 1 bit na posicao 0 | semente = 456789
+----------------------------------------------------------------
+ Rondas |  Exatidao teste | Leitura
+----------------------------------------------------------------
+      2 |         99.88% | ESTRUTURA detetavel (vulneravel)
+      3 |         99.68% | ESTRUTURA detetavel (vulneravel)
+      4 |         99.55% | ESTRUTURA detetavel (vulneravel)
+      5 |         94.55% | ESTRUTURA detetavel (vulneravel)
+      6 |         68.35% | ESTRUTURA detetavel (vulneravel)
+      7 |         49.83% | ~acaso (robusto)
+      8 |         49.53% | ~acaso (robusto)
+      9 |         50.15% | ~acaso (robusto)
+     10 |         50.63% | ~acaso (robusto)
+     16 |         49.75% | ~acaso (robusto)
+     32 |         51.07% | ~acaso (robusto)
+     48 |         48.85% | ~acaso (robusto)
+     64 |         50.80% | ~acaso (robusto)
+----------------------------------------------------------------
+50% = a rede nao distingue nada (SHA-256 parece aleatorio).
+
+C:\Users\Research\Desktop\TT4_Rui>python estudo_distinguisher_cuda.py --rounds 2 3 4 5 6 7 8 9 10 16 32 48 64  --delta-bit 32
+================================================================
+Estudo 4 - Distinguisher neuronal SHA-256 (Modo: CUDA)
+================================================================
+Treino = 20000 amostras | Teste = 4000 amostras (SEPARADAS)
+DELTA = 1 bit na posicao 32 | semente = 456789
+----------------------------------------------------------------
+ Rondas |  Exatidao teste | Leitura
+----------------------------------------------------------------
+      2 |         99.48% | ESTRUTURA detetavel (vulneravel)
+      3 |         99.98% | ESTRUTURA detetavel (vulneravel)
+      4 |         99.95% | ESTRUTURA detetavel (vulneravel)
+      5 |         99.03% | ESTRUTURA detetavel (vulneravel)
+      6 |         80.73% | ESTRUTURA detetavel (vulneravel)
+      7 |         68.80% | ESTRUTURA detetavel (vulneravel)
+      8 |         49.40% | ~acaso (robusto)
+      9 |         49.43% | ~acaso (robusto)
+     10 |         50.20% | ~acaso (robusto)
+     16 |         50.95% | ~acaso (robusto)
+     32 |         50.80% | ~acaso (robusto)
+     48 |         50.63% | ~acaso (robusto)
+     64 |         51.05% | ~acaso (robusto)
+----------------------------------------------------------------
+50% = a rede nao distingue nada (SHA-256 parece aleatorio).
+
+C:\Users\Research\Desktop\TT4_Rui>python estudo_distinguisher_cuda.py --rounds 2 3 4 5 6 7 8 9 10 16 32 48 64  --delta-bit 64
+================================================================
+Estudo 4 - Distinguisher neuronal SHA-256 (Modo: CUDA)
+================================================================
+Treino = 20000 amostras | Teste = 4000 amostras (SEPARADAS)
+DELTA = 1 bit na posicao 64 | semente = 456789
+----------------------------------------------------------------
+ Rondas |  Exatidao teste | Leitura
+----------------------------------------------------------------
+      2 |         99.88% | ESTRUTURA detetavel (vulneravel)
+      3 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      4 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      5 |         99.78% | ESTRUTURA detetavel (vulneravel)
+      6 |         99.20% | ESTRUTURA detetavel (vulneravel)
+      7 |         95.25% | ESTRUTURA detetavel (vulneravel)
+      8 |         66.43% | ESTRUTURA detetavel (vulneravel)
+      9 |         50.70% | ~acaso (robusto)
+     10 |         50.05% | ~acaso (robusto)
+     16 |         51.78% | ~acaso (robusto)
+     32 |         50.60% | ~acaso (robusto)
+     48 |         50.03% | ~acaso (robusto)
+     64 |         48.95% | ~acaso (robusto)
+----------------------------------------------------------------
+50% = a rede nao distingue nada (SHA-256 parece aleatorio).
+
+C:\Users\Research\Desktop\TT4_Rui>python estudo_distinguisher_cuda.py --rounds 2 3 4 5 6 7 8 9 10 16 32 48 64  --delta-bit 96
+================================================================
+Estudo 4 - Distinguisher neuronal SHA-256 (Modo: CUDA)
+================================================================
+Treino = 20000 amostras | Teste = 4000 amostras (SEPARADAS)
+DELTA = 1 bit na posicao 96 | semente = 456789
+----------------------------------------------------------------
+ Rondas |  Exatidao teste | Leitura
+----------------------------------------------------------------
+      2 |         99.88% | ESTRUTURA detetavel (vulneravel)
+      3 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      4 |         99.95% | ESTRUTURA detetavel (vulneravel)
+      5 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      6 |         99.80% | ESTRUTURA detetavel (vulneravel)
+      7 |         98.65% | ESTRUTURA detetavel (vulneravel)
+      8 |         92.95% | ESTRUTURA detetavel (vulneravel)
+      9 |         69.85% | ESTRUTURA detetavel (vulneravel)
+     10 |         50.58% | ~acaso (robusto)
+     16 |         48.35% | ~acaso (robusto)
+     32 |         51.07% | ~acaso (robusto)
+     48 |         49.38% | ~acaso (robusto)
+     64 |         49.50% | ~acaso (robusto)
+----------------------------------------------------------------
+50% = a rede nao distingue nada (SHA-256 parece aleatorio).
+
+C:\Users\Research\Desktop\TT4_Rui>python estudo_distinguisher_cuda.py --rounds 2 3 4 5 6 7 8 9 10 16 32 48 64  --delta-bit 128
+================================================================
+Estudo 4 - Distinguisher neuronal SHA-256 (Modo: CUDA)
+================================================================
+Treino = 20000 amostras | Teste = 4000 amostras (SEPARADAS)
+DELTA = 1 bit na posicao 128 | semente = 456789
+----------------------------------------------------------------
+ Rondas |  Exatidao teste | Leitura
+----------------------------------------------------------------
+      2 |         99.88% | ESTRUTURA detetavel (vulneravel)
+      3 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      4 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      5 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      6 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      7 |         99.75% | ESTRUTURA detetavel (vulneravel)
+      8 |         98.80% | ESTRUTURA detetavel (vulneravel)
+      9 |         92.83% | ESTRUTURA detetavel (vulneravel)
+     10 |         59.00% | ESTRUTURA detetavel (vulneravel)
+     16 |         50.73% | ~acaso (robusto)
+     32 |         51.03% | ~acaso (robusto)
+     48 |         49.68% | ~acaso (robusto)
+     64 |         49.75% | ~acaso (robusto)
+----------------------------------------------------------------
+50% = a rede nao distingue nada (SHA-256 parece aleatorio).
+
+C:\Users\Research\Desktop\TT4_Rui>python estudo_distinguisher_cuda.py --rounds 2 3 4 5 6 7 8 9 10 16 32 48 64  --delta-bit 160
+================================================================
+Estudo 4 - Distinguisher neuronal SHA-256 (Modo: CUDA)
+================================================================
+Treino = 20000 amostras | Teste = 4000 amostras (SEPARADAS)
+DELTA = 1 bit na posicao 160 | semente = 456789
+----------------------------------------------------------------
+ Rondas |  Exatidao teste | Leitura
+----------------------------------------------------------------
+      2 |         99.88% | ESTRUTURA detetavel (vulneravel)
+      3 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      4 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      5 |         99.98% | ESTRUTURA detetavel (vulneravel)
+      6 |         99.95% | ESTRUTURA detetavel (vulneravel)
+      7 |         99.93% | ESTRUTURA detetavel (vulneravel)
+      8 |         99.78% | ESTRUTURA detetavel (vulneravel)
+      9 |         98.95% | ESTRUTURA detetavel (vulneravel)
+     10 |         94.85% | ESTRUTURA detetavel (vulneravel)
+     16 |         49.13% | ~acaso (robusto)
+     32 |         50.40% | ~acaso (robusto)
+     48 |         48.90% | ~acaso (robusto)
+     64 |         49.55% | ~acaso (robusto)
+----------------------------------------------------------------
+50% = a rede nao distingue nada (SHA-256 parece aleatorio).
+
+C:\Users\Research\Desktop\TT4_Rui>python estudo_distinguisher_cuda.py --rounds 2 3 4 5 6 7 8 9 10 16 32 48 64  --delta-bit 192
+================================================================
+Estudo 4 - Distinguisher neuronal SHA-256 (Modo: CUDA)
+================================================================
+Treino = 20000 amostras | Teste = 4000 amostras (SEPARADAS)
+DELTA = 1 bit na posicao 192 | semente = 456789
+----------------------------------------------------------------
+ Rondas |  Exatidao teste | Leitura
+----------------------------------------------------------------
+      2 |         99.88% | ESTRUTURA detetavel (vulneravel)
+      3 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      4 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      5 |         99.98% | ESTRUTURA detetavel (vulneravel)
+      6 |         99.98% | ESTRUTURA detetavel (vulneravel)
+      7 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      8 |         99.98% | ESTRUTURA detetavel (vulneravel)
+      9 |         99.83% | ESTRUTURA detetavel (vulneravel)
+     10 |         99.50% | ESTRUTURA detetavel (vulneravel)
+     16 |         49.13% | ~acaso (robusto)
+     32 |         50.23% | ~acaso (robusto)
+     48 |         49.80% | ~acaso (robusto)
+     64 |         49.88% | ~acaso (robusto)
+----------------------------------------------------------------
+50% = a rede nao distingue nada (SHA-256 parece aleatorio).
+
+C:\Users\Research\Desktop\TT4_Rui>python estudo_distinguisher_cuda.py --rounds 2 3 4 5 6 7 8 9 10 16 32 48 64  --delta-bit 224
+================================================================
+Estudo 4 - Distinguisher neuronal SHA-256 (Modo: CUDA)
+================================================================
+Treino = 20000 amostras | Teste = 4000 amostras (SEPARADAS)
+DELTA = 1 bit na posicao 224 | semente = 456789
+----------------------------------------------------------------
+ Rondas |  Exatidao teste | Leitura
+----------------------------------------------------------------
+      2 |         99.88% | ESTRUTURA detetavel (vulneravel)
+      3 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      4 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      5 |         99.98% | ESTRUTURA detetavel (vulneravel)
+      6 |         99.98% | ESTRUTURA detetavel (vulneravel)
+      7 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      8 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      9 |         99.98% | ESTRUTURA detetavel (vulneravel)
+     10 |         99.63% | ESTRUTURA detetavel (vulneravel)
+     16 |         49.50% | ~acaso (robusto)
+     32 |         50.53% | ~acaso (robusto)
+     48 |         49.00% | ~acaso (robusto)
+     64 |         50.78% | ~acaso (robusto)
+----------------------------------------------------------------
+50% = a rede nao distingue nada (SHA-256 parece aleatorio).
+
+C:\Users\Research\Desktop\TT4_Rui>python estudo_distinguisher_cuda.py --rounds 2 3 4 5 6 7 8 9 10 16 32 48 64  --delta-bit 255
+================================================================
+Estudo 4 - Distinguisher neuronal SHA-256 (Modo: CUDA)
+================================================================
+Treino = 20000 amostras | Teste = 4000 amostras (SEPARADAS)
+DELTA = 1 bit na posicao 255 | semente = 456789
+----------------------------------------------------------------
+ Rondas |  Exatidao teste | Leitura
+----------------------------------------------------------------
+      2 |         99.88% | ESTRUTURA detetavel (vulneravel)
+      3 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      4 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      5 |         99.98% | ESTRUTURA detetavel (vulneravel)
+      6 |         99.98% | ESTRUTURA detetavel (vulneravel)
+      7 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      8 |        100.00% | ESTRUTURA detetavel (vulneravel)
+      9 |        100.00% | ESTRUTURA detetavel (vulneravel)
+     10 |         99.98% | ESTRUTURA detetavel (vulneravel)
+     16 |         50.10% | ~acaso (robusto)
+     32 |         50.68% | ~acaso (robusto)
+     48 |         50.78% | ~acaso (robusto)
+     64 |         48.93% | ~acaso (robusto)
+----------------------------------------------------------------
+50% = a rede nao distingue nada (SHA-256 parece aleatorio).
