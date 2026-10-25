@@ -1,0 +1,188 @@
+==================================================================
+Estudo de Inversao do SHA-256 com CUDA / PyTorch
+==================================================================
+Treino = 10000 chaves | Teste = 2500 chaves (nunca vistas)
+------------------------------------------------------------------
+
+
+Rede (256,512,512,256) (entradas, camadas ocultas, saidas)
+
+max epoch = 120
+==================================================================
+                               bits acertados / 256        %
+TREINO (amostras vistas)                      172.4    67.4%
+TESTE  (amostras novas)                       127.9    50.0%
+Baseline do acaso                             128.0    50.0%
+------------------------------------------------------------------
+Distancia do teste ao acaso: -0.1 bits  (z = -0.7)
+=> O TESTE esta ao nivel do acaso: a rede NAO inverte o SHA-256.
+Gap treino-teste: +44.5 bits  ->  mede a MEMORIZACAO.
+==================================================================
+
+max epoch = 240
+==================================================================
+                               bits acertados / 256        %
+TREINO (amostras vistas)                      176.2    68.8%
+TESTE  (amostras novas)                       127.8    49.9%
+Baseline do acaso                             128.0    50.0%
+------------------------------------------------------------------
+Distancia do teste ao acaso: -0.2 bits  (z = -1.3)
+=> O TESTE esta ao nivel do acaso: a rede NAO inverte o SHA-256.
+Gap treino-teste: +48.4 bits  ->  mede a MEMORIZACAO.
+==================================================================
+
+max epoch = 360
+==================================================================
+                               bits acertados / 256        %
+TREINO (amostras vistas)                      177.7    69.4%
+TESTE  (amostras novas)                       127.7    49.9%
+Baseline do acaso                             128.0    50.0%
+------------------------------------------------------------------
+Distancia do teste ao acaso: -0.3 bits  (z = -1.7)
+=> O TESTE esta ao nivel do acaso: a rede NAO inverte o SHA-256.
+Gap treino-teste: +50.0 bits  ->  mede a MEMORIZACAO.
+==================================================================
+
+
+Rede(256,384,512,384,256) (entradas, camadas ocultas, saidas)
+
+max epoch = 120
+==================================================================
+                               bits acertados / 256        %
+TREINO (amostras vistas)                      156.4    61.1%
+TESTE  (amostras novas)                       127.8    49.9%
+Baseline do acaso                             128.0    50.0%
+------------------------------------------------------------------
+Distancia do teste ao acaso: -0.2 bits  (z = -1.4)
+=> O TESTE esta ao nivel do acaso: a rede NAO inverte o SHA-256.
+Gap treino-teste: +28.6 bits  ->  mede a MEMORIZACAO.
+==================================================================
+
+max epoch = 240
+==================================================================
+                               bits acertados / 256        %
+TREINO (amostras vistas)                      161.6    63.1%
+TESTE  (amostras novas)                       128.0    50.0%
+Baseline do acaso                             128.0    50.0%
+------------------------------------------------------------------
+Distancia do teste ao acaso: -0.0 bits  (z = -0.1)
+=> O TESTE esta ao nivel do acaso: a rede NAO inverte o SHA-256.
+Gap treino-teste: +33.6 bits  ->  mede a MEMORIZACAO.
+==================================================================
+
+max epoch = 360
+==================================================================
+                               bits acertados / 256        %
+TREINO (amostras vistas)                      163.6    63.9%
+TESTE  (amostras novas)                       128.1    50.0%
+Baseline do acaso                             128.0    50.0%
+------------------------------------------------------------------
+Distancia do teste ao acaso: +0.1 bits  (z = +0.4)
+=> O TESTE esta ao nivel do acaso: a rede NAO inverte o SHA-256.
+Gap treino-teste: +35.5 bits  ->  mede a MEMORIZACAO.
+==================================================================
+
+Rede (256,384,256,384,256) (entradas, camadas ocultas, saidas)
+
+max epoch = 120
+==================================================================
+                               bits acertados / 256        %
+TREINO (amostras vistas)                      160.0    62.5%
+TESTE  (amostras novas)                       128.2    50.1%
+Baseline do acaso                             128.0    50.0%
+------------------------------------------------------------------
+Distancia do teste ao acaso: +0.2 bits  (z = +1.2)
+=> O TESTE esta ao nivel do acaso: a rede NAO inverte o SHA-256.
+Gap treino-teste: +31.8 bits  ->  mede a MEMORIZACAO.
+==================================================================
+
+max epoch = 240
+==================================================================
+                               bits acertados / 256        %
+TREINO (amostras vistas)                      164.1    64.1%
+TESTE  (amostras novas)                       128.2    50.1%
+Baseline do acaso                             128.0    50.0%
+------------------------------------------------------------------
+Distancia do teste ao acaso: +0.2 bits  (z = +1.4)
+=> O TESTE esta ao nivel do acaso: a rede NAO inverte o SHA-256.
+Gap treino-teste: +35.9 bits  ->  mede a MEMORIZACAO.
+==================================================================
+
+max epoch = 360
+==================================================================
+                               bits acertados / 256        %
+TREINO (amostras vistas)                      165.5    64.6%
+TESTE  (amostras novas)                       128.1    50.1%
+Baseline do acaso                             128.0    50.0%
+------------------------------------------------------------------
+Distancia do teste ao acaso: +0.1 bits  (z = +0.9)
+=> O TESTE esta ao nivel do acaso: a rede NAO inverte o SHA-256.
+Gap treino-teste: +37.3 bits  ->  mede a MEMORIZACAO.
+==================================================================
+
+
+
+Rede (256,384,256,128,256,384,256) (entradas, camadas ocultas, saidas)
+
+max epoch = 120
+==================================================================
+                               bits acertados / 256        %
+TREINO (amostras vistas)                      129.0    50.4%
+TESTE  (amostras novas)                       128.1    50.1%
+Baseline do acaso                             128.0    50.0%
+------------------------------------------------------------------
+Distancia do teste ao acaso: +0.1 bits  (z = +0.9)
+=> O TESTE esta ao nivel do acaso: a rede NAO inverte o SHA-256.
+Gap treino-teste: +0.9 bits  ->  mede a MEMORIZACAO.
+==================================================================
+
+max epoch = 240
+==================================================================
+                               bits acertados / 256        %
+TREINO (amostras vistas)                      129.0    50.4%
+TESTE  (amostras novas)                       128.2    50.1%
+Baseline do acaso                             128.0    50.0%
+------------------------------------------------------------------
+Distancia do teste ao acaso: +0.2 bits  (z = +1.1)
+=> O TESTE esta ao nivel do acaso: a rede NAO inverte o SHA-256.
+Gap treino-teste: +0.8 bits  ->  mede a MEMORIZACAO.
+==================================================================
+
+max epoch = 360
+==================================================================
+                               bits acertados / 256        %
+TREINO (amostras vistas)                      129.0    50.4%
+TESTE  (amostras novas)                       128.2    50.1%
+Baseline do acaso                             128.0    50.0%
+------------------------------------------------------------------
+Distancia do teste ao acaso: +0.2 bits  (z = +1.1)
+=> O TESTE esta ao nivel do acaso: a rede NAO inverte o SHA-256.
+Gap treino-teste: +0.9 bits  ->  mede a MEMORIZACAO.
+==================================================================
+
+Esta arquitetura de rede parece memorizar mais lentamente
+e parece melhorar o score nos dados de teste (mesmo se pouco significativo)
+
+max epoch = 1000
+==================================================================
+                               bits acertados / 256        %
+TREINO (amostras vistas)                      129.0    50.4%
+TESTE  (amostras novas)                       128.2    50.1%
+Baseline do acaso                             128.0    50.0%
+------------------------------------------------------------------
+Distancia do teste ao acaso: +0.2 bits  (z = +1.1)
+=> O TESTE esta ao nivel do acaso: a rede NAO inverte o SHA-256.
+Gap treino-teste: +0.8 bits  ->  mede a MEMORIZACAO.
+==================================================================
+
+maxEpoch = 10000
+==================================================================
+                               bits acertados / 256        %
+TREINO (amostras vistas)                      129.0    50.4%
+TESTE  (amostras novas)                       128.2    50.1%
+Baseline do acaso                             128.0    50.0%
+------------------------------------------------------------------
+Distancia do teste ao acaso: +0.2 bits  (z = +1.1)
+=> O TESTE esta ao nivel do acaso: a rede NAO inverte o SHA-256.
+Gap treino-teste: +0.8 bits  ->  mede a MEMORIZACAO.
+==================================================================
